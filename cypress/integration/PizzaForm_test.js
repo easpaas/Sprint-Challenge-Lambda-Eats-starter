@@ -6,7 +6,7 @@ describe('Tests all form inputs', function () {
     cy.visit('localhost:3000/pizza')
   })
     it('Successfully submit form', function() {
-      // first name input
+      // check name input
       cy.get('[for="name"] > input')
         .type('Pepp')
         .should('have.value', 'Pepp')

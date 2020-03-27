@@ -7,7 +7,7 @@ import Nav from './Nav';
 
 const formSchema = Yup.object().shape({
   name: Yup
-    .string()
+    .string().matches('[a-zA-Z]{2,}', 'Must have two or more characters')
     .required('Name field is required.'),
   size: Yup
     .string(),
@@ -117,6 +117,12 @@ function PizzaForm() {
             onChange={handleChange}
           />
         </label>
+        {
+          errors.name.length > 0 ? 
+          <p className="error">{errors.name}</p> 
+          : 
+          null
+        }
         <label htmlFor="sizes">
           Choose a size: 
           <select

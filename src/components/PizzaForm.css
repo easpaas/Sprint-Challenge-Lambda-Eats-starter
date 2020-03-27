@@ -20,3 +20,6 @@ form label {
   background-color: lightgray;
   border: 1px solid;
 }
+.error {
+  color: red;
+}
