@@ -14,6 +14,8 @@ describe('Tests all form inputs', function () {
       // checkbox
       cy.get('[for="Pepperoni"] > input')
         .check()
+      cy.get('[for="Three Cheese"] > input')
+        .check()
 
       // submit form
       cy.get('button')
