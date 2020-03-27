@@ -1,19 +1,10 @@
-.home {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: 1px solid;
+.Home {
+  margin-top: 4%;
 }
-.home h1 {
-  color: crimson;
+.Image {
+  max-width: 80%;
+  margin: 0 auto;
 }
-.home nav {
-  width: 10%;
-}
-.home nav a{
-  text-decoration: none;
-  padding:5%;
-  border:1px solid;
-  background: black;
-  color:white;
+.Image img {
+  width: 100%;
 }

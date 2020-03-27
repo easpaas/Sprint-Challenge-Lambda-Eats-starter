@@ -1,0 +1,19 @@
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid;
+}
+.Nav h1 {
+  color: crimson;
+}
+nav {
+  width: 10%;
+}
+nav a{
+  text-decoration: none;
+  padding:5%;
+  border:1px solid;
+  background: black;
+  color:white;
+}

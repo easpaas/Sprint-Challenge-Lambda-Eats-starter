@@ -1,16 +1,19 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
 import './Home.css';
+import image from '../Assets/Pizza.jpg';
+
+import Nav from './Nav';
 
 function Home() {
   return (
-    <div className='home'>
-      <h1>Lambda EATS</h1>
-      <nav> 
-        <Link to="/">Home</Link>
-        <Link to="/pizza">Order</Link>
-      </nav>
+    <>
+    <Nav />
+    <div className="Home">
+      <div className="Image">
+        <img src={image} alt="margarita pizza" />
+      </div>
     </div>
+  </>
   );
 }
 
