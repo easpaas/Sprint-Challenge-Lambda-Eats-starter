@@ -1,0 +1,10 @@
+.Home {
+  margin-top: 4%;
+}
+.Image {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.Image img {
+  width: 100%;
+}
